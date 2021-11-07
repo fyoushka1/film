@@ -1,0 +1,13 @@
+.row{
+	width: 415px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	&__left{
+		color: gray;
+		margin-right: 40px;
+	}
+	&__right{
+		color: white;
+	}
+}

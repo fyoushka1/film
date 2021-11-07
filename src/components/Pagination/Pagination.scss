@@ -1,0 +1,21 @@
+.pagination{
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	&__btn{
+		background: transparent;
+		font-size: 18px;
+		color: #fff;
+		border: none;
+		cursor: pointer;
+		padding: 10px 20px;
+		background: rgba(255,255,255,0.12);
+		transition: all .3s ease-in-out;
+		&:hover{
+			background: rgba(255,255,255,0.09);
+			transform: scale(1.05);
+		}
+	}
+
+}

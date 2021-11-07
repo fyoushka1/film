@@ -1,0 +1,23 @@
+.film__wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.home__title{
+	color: #fff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.home__header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 660px) {
+	.home__header{
+		justify-content: center;
+	}
+}

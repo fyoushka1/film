@@ -1,0 +1,76 @@
+.film{
+	.cast {
+		margin-top: 10px;
+		&__inner{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		&__title{
+			color: white;
+			margin-bottom: 10px;
+		}
+		&__item {
+			font-size: 18px;
+			display: flex;
+			line-height: 28px;
+			color: #ffff;
+		}
+	}
+	&__inner{
+		display: flex;
+	}
+	&__middle{
+		margin-right: 5%;
+		.title{
+			color: #ffff;
+			font-size: 40px;
+			margin-bottom: 20px;
+		}
+		&-title{
+			color: #fff;
+			font-weight: 600;
+			font-size: 26px;
+			margin-bottom: 15px;
+		}
+		.original__title{
+			color: gainsboro;
+			font-weight: 400;
+			font-size: 18px;
+			margin-bottom: 60px;
+		}
+		&-inner{
+
+		}
+	}
+	&__left{
+		margin-right: 50px;
+		.film__poster{
+			width: 333px;
+			height: 500px;
+			object-fit: cover;
+		}
+	}
+}
+.rating{
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.important{
+	padding: 10px 25px;
+	background: orange;
+	border-radius: 4px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	transition: all .3s ease-in-out;
+	cursor: pointer;
+	&:hover{
+		background: darken(orange, 10%);
+		transform: scale(1.05);
+	}
+
+}
+
